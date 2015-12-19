@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>uBlock Origin</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Import materialize.css-->
+	<link href="vendor/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<link rel="shortcut icon" href="images/Favicon.ico" />
+</head>
+
+<body>
+
+	<!--Navbar-->
+	<div class="">
+		<nav class="transparent" role="navigation" style="box-shadow: none">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="index.html" class="brand-logo black-text thin"><img style="height:25px;" src="images/Logo.png">&nbsp;&nbsp;uBlock Origin</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="https://github.com/gorhill/uBlock#philosophy" class="grey-text text-darken-1">About</a></li>
+					<li><a href="https://github.com/gorhill/uBlock#installation" class="grey-text text-darken-1">Download</a></li>
+					<li><a href="https://github.com/gorhill/uBlock" class="grey-text text-darken-1">GitHub</a></li>
+				</ul>
+				<ul id="nav-mobile" class="side-nav">
+					<li><a href="sass.html">About</a></li>
+					<li><a href="https://github.com/gorhill/uBlock#installation">Download</a></li>
+					<li><a href="collapsible.html">GitHub</a></li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse black-text">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</nav>
+	</div>
+
+	<!--Main Content-->
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container">
+	    <div class="center">
+	      <br>
+				<br>
+				<img src="images/Logo.png">
+			</div>
+			<h1 class="center black-text" style="font-weight:300;">uBlock Origin</h1>
+			<div class="row center">
+				<h5 class="header col s12 black-text thin">
+					An efficient blocker add-on for various browsers <br>
+					Fast, potent, and lean
+				</h5>
+			</div>
+			<div class="row center">
+				<a href="https://github.com/gorhill/uBlock#installation" class="btn-large waves-effect waves-light teal darken-1">Download</a>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+    <div class="row">
+      <div class="divider"></div>
+      <div class="section">
+        <div class="col l3 m5 s12 fade-in center">
+          <img src="images/UI.png">
+        </div>
+        <div class="col l9 m7 12 fade-in">
+          <div class="large-h5">Modern UI</div>
+          <p>uBlock Origin features a purely functional UI that simply gets out of your way. Its innovative design allows seamless user interaction.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="divider"></div>
+      <div class="section">
+        <div class="col l4 m4 s12 fade-in">
+          <div class="large-h5">Light on resources</div>
+          <p>Memory and CPU usage is far less than alternatives such as Adblock and uBlock.</p>
+        </div>
+        <div class="col l8 m8 s12 fade-in center">
+          <img style="width: 100%;" src="images/Graph.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<!--Footer-->
+	<footer class="page-footer teal darken-1">
+		<div class="container">
+			<div class="row">
+				<div class="col l10 m8 s12">
+					<h5 class="white-text">Philosophy</h5>
+					<p class="grey-text text-lighten-4 default">uBlock Origin (or uBlock₀) is not an ad blocker; it's a general-purpose blocker. uBlock₀ blocks ads through its support of the Adblock Plus filter syntax. uBlock₀ extends the syntax and is designed to work with custom rules and filters.</p>
+				</div>
+				<div class="col l2 m4 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li>
+							<a class="white-text" href="https://github.com/gorhill/uBlock">GitHub</a>
+						</li>
+						<li>
+							<a class="white-text" href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Chrome Web Store</a>
+						</li>
+						<li>
+						  <a class="white-text" href="https://addons.mozilla.org/en-us/firefox/addon/ublock-origin/">Firefox Addon</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Website by
+				<a class="orange-text text-lighten-3" href="https://github.com/Wolfgange3311999">Matthew D. Scholefield</a>
+			</div>
+		</div>
+	</footer>
+
+	<!--Scripts-->
+	<script type="text/javascript" src="vendor/js/jquery.min.js"></script>
+	<script type="text/javascript" src="vendor/js/materialize.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/fade.js"></script>
+
+	<!--Mobile Sidebar Target-->
+	<div class="hiddendiv common"></div>
+	<div class="drag-target" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
+</body>
+
+</html>
