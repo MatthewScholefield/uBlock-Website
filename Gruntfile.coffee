@@ -45,12 +45,6 @@ module.exports = (grunt) ->
           cwd: "bower_components/materialize/dist/js/"
           src: "materialize.min.js"
           dest: "vendor/js/"
-        },
-        {
-          expand: true
-          cwd: "bower_components/materialize/dist/font/"
-          src: "**/*"
-          dest: "vendor/font/"
         }]
 
     jekyll: [

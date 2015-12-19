@@ -8,6 +8,10 @@
  * Made By MaterializeCSS.com
  */
 
+html {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .icon-block {
 	padding: 0 15px;
 }
@@ -30,6 +34,7 @@ p {
 	font-size: 2.0rem;
 	font-weight: 100;
 	margin-bottom: 30px;
+	color: #999999;
 }
 
 .default {
